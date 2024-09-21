@@ -1,0 +1,26 @@
+.header {
+    transition: all 0.5s;
+    z-index: 997;
+    height: 40px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background: #fff;
+    padding-left: 0;
+    top: 70px;
+    margin-left: 110px;
+    margin-right: 40px;
+    position: absolute;
+}
+
+@media (max-width: 1024px) {
+    .header {
+        height: 40px; 
+        top: 70px; 
+        margin-left: 100px; 
+        margin-right: 30px; 
+
+    }
+
+    .header .toogle-sidebar-btn {
+        font-size: 28px; 
+    }
+}

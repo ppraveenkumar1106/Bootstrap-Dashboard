@@ -1,0 +1,100 @@
+/* Styling for the card */
+.overview{
+    margin: 20px auto;
+    padding: 20px;
+    margin-top: 60px;
+    margin-left: 110px;
+    margin-right: -20px;
+    background-color: #f9f9f9;
+    height: 580px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+  /* Styling for the card body */
+
+  .overview-titles{
+    width: 100%;
+    text-align: start;
+    border-bottom: 1px solid #000;
+    margin-bottom: 10px;
+  }
+  
+  /* Styling for the card title */
+ 
+  
+  /* Styling for the table */
+  .table {
+    width: 100%;
+    margin-bottom: 1rem;
+    color: #212529;
+  }
+  
+  /* Table header */
+  /* .table-light {
+    background-color: #f8f9fa;
+    
+  } */
+
+  .table th{
+    text-align: left;
+    padding: 12px;
+    justify-items: center;
+    font-weight: bold;
+    font-size: 16px;
+    background: lightgray;
+  }
+  
+  /* Remove borders */
+  .table-borderless th,
+  .table-borderless td,
+  .table-borderless thead th {
+    border: none;
+  }
+  
+  /* Links inside the table */
+  .text-primary {
+    color: #007bff !important;
+    text-decoration: none;
+  }
+  
+  .text-primary:hover {
+    color: #0056b3 !important;
+    text-decoration: underline;
+  }
+  
+  /* Badge styles */
+  .badge {
+    font-size: 0.875rem;
+    padding: 0.5em 1em;
+    border-radius: 12px;
+  }
+  
+  .badge.bg-success {
+    background-color: #28a745;
+  }
+  
+  .badge.bg-warning {
+    background-color: #ffc107;
+  }
+  
+  .badge.bg-danger {
+    background-color: #dc3545;
+  }
+  
+  .badge.bg-secondary {
+    background-color: #6c757d;
+  }
+  
+  /* Styling for empty state */
+  .text-center {
+    text-align: center;
+  }
+  
+  /* Make the card scrollable for responsive design */
+  .overflow-auto {
+    max-height: 400px;
+    overflow-y: auto;
+  }
+  

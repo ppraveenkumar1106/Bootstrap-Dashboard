@@ -1,0 +1,18 @@
+.Performance{
+    margin: 20px auto;
+    padding: 20px;
+    margin-top: 60px;
+    margin-left: 110px;
+    margin-right: -20px;
+    background-color: #f9f9f9;
+    height: 580px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.Performance-titles{
+    width: 100%;
+    text-align: start;
+    border-bottom: 1px solid #000;
+
+}

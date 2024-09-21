@@ -1,0 +1,107 @@
+/* OnlyCards.css */
+
+.onlycards {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px auto;
+    padding: 20px;
+    margin-top: 60px;
+    margin-left: 110px;
+    margin-right: -20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    gap: 20px;
+  }
+
+  .OnlyCards-titles {
+    width: 100%;
+    text-align: start;
+    border-bottom: 1px solid #000;
+  }
+  
+  .cards {
+    background: #fff;
+    border-radius: 8px;
+    max-width: 227px;
+    height: 400px;
+    margin: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    transition: transform 0.2s ease-in-out;
+    margin-left: 16px;
+  }
+  
+  .cards:hover {
+    transform: translateY(-10px);
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  }
+  
+  .card-img {
+    overflow: hidden;
+  }
+  
+  .card-img img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .card-titles {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin: 16px;
+  }
+  
+  .card-subtitle {
+    font-size: 1rem;
+    color: #666;
+    margin: 0 16px 16px;
+  }
+  
+  .card-divider {
+    border: none;
+    border-top: 1px solid #eee;
+    margin: 16px 0;
+  }
+  
+  .card-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    border-top: 1px solid #eee;
+  }
+  
+  .card-price {
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+  
+  .card-btn {
+    background: #007bff;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    padding: 8px 16px;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .card-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .card-btn i {
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+  }
+  

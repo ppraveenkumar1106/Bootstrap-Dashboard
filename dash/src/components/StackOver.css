@@ -1,0 +1,86 @@
+.chart-container {
+    width: 100%;
+    height: auto;
+    min-height: 200px; 
+    max-height: 100px;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    border: 1px solid #ddd;
+    border-bottom: 1px solid grey;
+
+  }
+  
+  .chart-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+    position: relative;
+    border-bottom: 1px solid grey; 
+  }
+  
+  
+  .product-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #333; 
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    margin: 0; 
+  }
+  
+  .stack-title {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    margin-top: 0;
+    font-weight: 600;
+  }
+  
+  .unit-switcher {
+    display: flex;
+    justify-content: flex-end; 
+    gap: 15px;
+    position: absolute;
+    bottom: 20px;
+    bottom: 20px;
+    right: 10px;
+  }
+  
+  .unit-switcher label {
+    cursor: pointer;
+  }
+  
+  .separator {
+    margin: 20px 0;
+  }
+  
+  #stack-overview {
+    width: 100%;
+  height: auto;
+  bottom: 25px;
+  min-height: 140px;
+  max-height: 120px;  
+  }
+  
+
+  @media (max-width: 600px) {
+    .chart-container {
+        min-height: 150px; 
+        max-height: 80px;
+        padding: 10px;
+        border: 1px solid #ccc;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 1200px) {
+    .chart-container {
+        min-height: 180px; 
+        max-height: 90px;
+        padding: 15px;
+        border: 1px solid #bbb;
+    }
+}

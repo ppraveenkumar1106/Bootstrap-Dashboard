@@ -1,0 +1,20 @@
+.logo{
+    line-height: 1;
+    margin-left: 5px;
+    gap: 10px;
+    border-right: 1.5px solid gray;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    padding-right: 10px;
+    text-decoration: none;
+}
+
+.logo i{
+    color: #012970;
+}
+
+.logo span{
+    color: #000;
+}
+
